@@ -1,6 +1,6 @@
 DSA_AC
-# 1. 🔄 Understanding the Swap Concept with an Analogy
-Let's break down the **concept of swapping values** using a simple and intuitive analogy involving three boxes.
+# 1. 🔄 Understanding the Swap Concept
+Let's break down the **concept of swapping values** using a simple and intuitive analogy.
 ### 🧠 The Scenario
 Imagine there are **three boxes**: `A`, `B`, and `C`.
 - 🔹 Box `A` contains an item `A`
