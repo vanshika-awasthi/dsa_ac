@@ -4,5 +4,6 @@ public class task2 {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         System.out.println("Good Morning "+name);
+        scanner.close();
     }
 }
