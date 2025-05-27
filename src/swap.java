@@ -6,14 +6,19 @@ We need to interchange the items of box A and B. Lets see how we can do this wit
 ** 2. Now we will put the item of box B into box A.
 ** 3. Finally we will put the item of box C into box B. 
 */ 
+import java.util.Scanner;
 public class swap{
     public static void main(String[] args){
-        int a =5;
-        int b = 6;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int a = scanner.nextInt();
+        System.out.println("Enter second number: ");
+        int b = scanner.nextInt();
         System.out.println("Before swap: a = " + a + ",b = " + b);
         int temp = a;
         a=b;
         b=temp;
         System.out.println("After swap: a = " + a + ",b = " + b);
+        scanner.close();
     }
 }
