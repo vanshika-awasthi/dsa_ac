@@ -9,16 +9,16 @@ We need to interchange the items of box A and B. Lets see how we can do this wit
 import java.util.Scanner;
 public class swap{
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter first number: ");
-        int a = scanner.nextInt();
+        int a = input.nextInt();
         System.out.println("Enter second number: ");
-        int b = scanner.nextInt();
+        int b = input.nextInt();
         System.out.println("Before swap: a = " + a + ",b = " + b);
         int temp = a;
         a=b;
         b=temp;
         System.out.println("After swap: a = " + a + ",b = " + b);
-        scanner.close();
+        input.close();
     }
 }
