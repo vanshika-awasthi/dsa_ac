@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Array{
+    //temperature array update method outside main method
     public static void update(int temperature[]){
         for(int i=0; i<temperature.length; i++){
             temperature[i]=temperature[i]+1;
@@ -30,7 +31,7 @@ public class Array{
         System.out.println("Percentage: " + percentage + "%");
         System.out.println("Marks array length: "+ marks.length);
         
-        //Temperature array and updation
+        //Array of Primitive - Temperature array and updation
         int temperature[] = new int[5];
         System.out.println("Enter the temperature for 5 days:");
         for(int i=0;i<temperature.length;i++){
@@ -39,5 +40,13 @@ public class Array{
         System.out.println("Temperature array: " + Arrays.toString(temperature));
         update(temperature);
         System.out.println("Updated temperature array: "+ Arrays.toString(temperature));
-    }   
+
+        //Array of objects
+        String[] names = new String[5];
+        System.out.println("Enter 5 names: ");
+        for(int i=0; i< names.length; i++){
+            names[i] = sc.next();
+        }
+        System.out.println(Arrays.toString(names));
+    } 
 }
