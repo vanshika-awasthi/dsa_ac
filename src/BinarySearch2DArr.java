@@ -25,7 +25,7 @@ public class BinarySearch2DArr{
         int row = 0;
         int col = matrix.length-1;
 
-        while(row < matrix.length && col >= 0){
+        while(row < matrix.length && col >= 0){ 
             if(matrix[row][col] == target){
                 return new int[] {row, col};
             }
